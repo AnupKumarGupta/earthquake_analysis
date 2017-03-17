@@ -1,0 +1,5 @@
+# Virtual Environment 
+# Use requirements.txt for dependencies
+/.venv
+/.idea
+*.pyc
