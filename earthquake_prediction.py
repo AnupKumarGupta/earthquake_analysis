@@ -33,8 +33,8 @@ Y_validate = Y_norm[batch_size:batch_size + validation_size]
 
 # Network hyper parametres
 learning_rate = 0.001
-training_iterations = 100000
-display_iterations = 20000
+training_iterations = 100
+display_iterations = 20
 
 # Input
 X = tf.placeholder(tf.float32, shape=(None, X_features))  # [batch size, input_features]
